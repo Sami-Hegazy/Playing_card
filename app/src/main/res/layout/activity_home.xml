@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#b5b5f3"
+    style="@style/Widget.AppCompat.ListView.Menu">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Find  Diamond King Card "
+    android:gravity="center"
+    android:layout_marginBottom="80dp"
+    android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/LeftI"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/back_play" />
+
+        <ImageView
+            android:id="@+id/middleI"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:src="@drawable/back_play" />
+
+        <ImageView
+            android:id="@+id/rightI"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/back_play" />
+    </LinearLayout>
+
+    <Button
+    android:id="@+id/new_game"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:text="New Game"
+    android:background="@drawable/buttonstyle"/>
+
+</LinearLayout>
